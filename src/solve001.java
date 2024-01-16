@@ -1,2 +1,0 @@
-public class solve001 {
-}
