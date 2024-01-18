@@ -23,8 +23,11 @@ public class Solution {
         answer = players;
         String dummy = "";
 
+        // callings 만큼 순회
         for(int i=0;i<callings.length;i++) {
+            // answer 만큼 순회
             for (int j = 0; j < answer.length; j++) {
+                // callings의 원소와, answer의 원소가 같은 경우, SWAP 하는 조건문
                 if ((callings[i].equals(answer[j])) && j != 0) {
                     dummy = answer[j - 1];
                     answer[j - 1] = answer[j];
